@@ -1,0 +1,21 @@
+add a2, a1, a0 
+add a0, a1 
+add a3 a0 a1 a2 
+dummy a0, a1, a2
+add a0, x0, x1
+la a1, hello
+
+adde ad,eps,a  
+li X1 X31
+la X1, X31
+#  add x1,A2,Sp
+sUb X2,#Sp,s2 
+ecall#
+Ecall #
+
+
+
+li a3, 5
+addi a2, x0, 5
+subi a7, x0, 64
+ecall
